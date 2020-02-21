@@ -1,0 +1,54 @@
+.header__title {
+  width: 100%;
+  height: auto;
+  background: #a52a2a;
+  text-align: center;
+  color: #ffffff;
+}
+
+.img-header {
+  width: 100%;
+}
+
+.font-aricle {
+  font-size: 18px;
+}
+
+.style-italic {
+  font-style: italic;
+}
+
+.weight-bold {
+  font-weight: bold;
+}
+
+.style-italic__blue {
+  font-style: italic;
+  color: blue;
+}
+
+.img_allcar {
+  margin: 30px;
+}
+.article-img__cars {
+  text-align: center;
+}
+
+.car01,
+.car02,
+.car03,
+.car04,
+.car05 {
+  border: 3px dashed black;
+  margin: 2px;
+}
+
+.footer {
+  background: black;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.blue {
+  color: blue;
+}

@@ -12,4 +12,4 @@
 - Lesson 4
   - [Lesson 4.1](https://kpweby.github.io/beetroot/l4_CSS/l4.1/index)
   - [Lesson 4.2](https://kpweby.github.io/beetroot/l4_CSS/l4.2/index)
-- [Lesson 5](https://kpweby.github.io/beetroot/l5_Photoshop/inde)
+- [Lesson 5](https://kpweby.github.io/beetroot/l5_Photoshop/index)

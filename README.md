@@ -13,3 +13,9 @@
   - [Lesson 4.1](https://kpweby.github.io/beetroot/l4_CSS/l4.1/index)
   - [Lesson 4.2](https://kpweby.github.io/beetroot/l4_CSS/l4.2/index)
 - [Lesson 5](https://kpweby.github.io/beetroot/l5_Photoshop/index)
+- Lesson 6
+  - [Lesson 6.1](https://kpweby.github.io/beetroot/l6_css_selectors/2.1/index)
+  - [Lesson 6.2](https://kpweby.github.io/beetroot/l6_css_selectors/2.2/index)
+  - Lesson 7
+  - [Lesson 7.1](https://kpweby.github.io/beetroot/l7_css_boxmodel/2.1/index)
+  - [Lesson 7.2](https://kpweby.github.io/beetroot/l7_css_boxmodel/2.2/index)

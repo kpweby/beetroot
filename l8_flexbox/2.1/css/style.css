@@ -1,0 +1,89 @@
+@import url("stylesheet.css");
+
+:root {
+  --main-color: #fdde7e;
+  --white: #fff;
+  --price: #02995b;
+  --text-deg-color: #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.main {
+  width: 1200px;
+  height: 600px;
+  background-color: var(--main-color);
+  padding: 80px 30px;
+}
+
+.list {
+  height: 441px;
+  display: flex;
+  justify-content: space-between;
+}
+.list__item {
+  transition: ease 0.3s;
+  cursor: pointer;
+  border-radius: 1%;
+  background-color: var(--white);
+  box-shadow: 1px 1px 10px 1px #666;
+  list-style: none;
+  flex-basis: 32%;
+}
+
+.list__item:hover {
+  transform: scaleY(1.15);
+}
+
+.cups {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.cups__price {
+  color: var(--price);
+  font-family: "Miso", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 24px;
+  padding-top: 30px;
+  height: 53px;
+  margin: 0 auto;
+}
+
+.cups__wrapper {
+  height: 134px;
+  margin: 0 auto;
+}
+
+.cups__text {
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  color: var(--text-deg-color);
+  margin: 0 auto;
+}
+
+.cups__title {
+  font-family: "Miso", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 26px;
+}
+
+.cups__deg {
+  font-family: "Lato Light";
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  font-size: 21px;
+  max-width: 156px;
+}

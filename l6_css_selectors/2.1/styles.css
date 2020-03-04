@@ -22,21 +22,21 @@ body {
   margin: 0 auto;
 }
 
-.content {
+.content-list {
   list-style: none;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.content__item {
+.content-list__item {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.image {
+.item {
   max-width: 220px;
 }
-.image__wrapper {
+.item__icon-wrapper {
   height: 63px;
   width: 63px;
   border-radius: 50%;
@@ -52,15 +52,15 @@ body {
   align-items: center;
 }
 
-.image__wrapper:hover {
+.item__icon-wrapper:hover {
   background-color: var(--white);
   fill: var(--change_color);
 }
 
-.text__title {
+.item__title {
   margin-bottom: 20px;
 }
-.text__description {
+.item__description {
   color: var(--gray);
   font-family: "Proxima Nova";
   font-size: 14px;

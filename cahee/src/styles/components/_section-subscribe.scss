@@ -1,0 +1,48 @@
+.section-subscribe {
+    background-image: url(../images/sub-bg.png);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    &__input {
+      min-height: 38px;
+      min-width: 100%;
+      @media screen and (min-width: $screen-tablet){
+      min-width: 570px;
+      min-height: 55px;
+    }
+  }
+    &__button {
+      &:hover {
+        cursor: pointer;
+      }
+      @media screen and (min-width: $screen-tablet){
+      margin-left: 30px;
+      display: inline;
+    }
+    }
+    &__container {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      @media screen and (min-width: $screen-tablet) {
+      padding-top: 145px;
+      padding-bottom: 160px;
+      }
+    }
+    &__title {
+      @include text($H700, 700);
+      line-height: 1;
+      margin-bottom: 34px;
+      text-align: center;
+      @media screen and (min-width: $screen-tablet) {
+      text-align: left;
+    
+    }
+  }
+    &__description {
+      @include text($H200, 300);
+      text-align: left;
+      max-width: 580px;
+      margin: 0 auto 32px;
+      display: inline-block;
+    }
+  }

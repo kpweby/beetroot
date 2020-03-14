@@ -1,0 +1,51 @@
+.section-blog {
+    background-color: $blog-bg-color;
+    padding: 100px 24px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    &__title {
+      @include text($H900, 700);
+      color: $white;
+      line-height: 0.75;
+      margin-bottom: 42px;
+    }
+    &__description {
+      @include text($H200, 300);
+      line-height: 1.5;
+      max-width: 570px;
+      text-align: center;
+      color: $white;
+      margin-bottom: 44px;
+    }
+    &__list {
+      @extend %container;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      
+    }
+    &__list-item {
+     @media screen and (min-width: $screen-tablet){
+      transition: all ease 0.9s;
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+    }
+    &__list-item:hover {
+      @media screen and (min-width: $screen-tablet){
+      transform: scale(1.05)
+    }
+  }
+    &__list:hover &__list-item:not(:hover) {
+      @media screen and (min-width: $screen-tablet){
+      opacity: 0.7;
+      cursor: pointer;
+      transform: scale(0.9)
+    }
+  }
+  }
+  

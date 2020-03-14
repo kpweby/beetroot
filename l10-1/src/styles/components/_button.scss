@@ -1,0 +1,22 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 55px;
+  text-align: center;
+  text-decoration: none;
+  background-color: $btn-color;
+  font-size: $button-fs;
+  font-weight: 300;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: $white;
+  box-shadow: $button-shadow;
+  transition: all ease 0.4s;
+}
+.button:hover {
+  width: 205px;
+  height: 60px;
+  opacity: 0.9;
+}

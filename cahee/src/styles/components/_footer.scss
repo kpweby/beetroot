@@ -1,0 +1,30 @@
+.footer {
+  background-color: $footer-bg-color;
+  &__copyright {
+    padding-bottom: 5px;
+    text-align: center;
+    @include flex(space-around, stretch, column);
+    @media screen and (min-width: $screen-desktop) {
+      @include flex(space-between, center);
+      min-height: 90px;
+  }
+}
+  &__copyright-text {
+    @include text($H100, 300)
+    color: $grey;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+&__copyright-made{
+  @include text($H50, 300)
+  color: $grey;
+  padding-bottom: 15px;
+}
+&__copyright-red {
+  @include text($H100, 700)
+  color: $text-marked-color;
+  padding-bottom: 15px;
+}
+}
+
+

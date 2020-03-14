@@ -1,0 +1,38 @@
+<section id="contact" class="section-contact">
+    <h2 class="section-contact__title">Contact</h2>
+    <p class="section-contact__description">
+        For new projects, ideas, business or anything
+        you'd like to discuss, contact with me!</p>
+    <div class="container section-contact__container">
+        <div class="section-contact__form-side">
+            <form name="form" method="GET" action="input">
+                <div class=" section-contact__input-wrapper">
+                    <input type="text" class="section-contact__input input--white" name="name" minlength="3"
+                        tabindex="1" placeholder="Your name" required />
+                </div>
+                <div class="section-contact__input-wrapper">
+                    <input type="email" class="section-contact__input input--white" name="mail" minlength="3"
+                        tabindex="2" placeholder="Your email..." required>
+                </div>
+                <div class="section-contact__input-wrapper">
+                    <input type="tel" class="section-contact__input input--white" name="phone" minlength="3"
+                        tabindex="3" placeholder="+38-(xxx)-(xxx)-(xxxx)" pattern="+38-[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        required />
+                </div>
+                <div class="section-contact__input-wrapper">
+                    <textarea class="section-contact__input input--white" rows="15" name="messege" tabindex="4"
+                        placeholder="Your messge.."></textarea>
+                </div>
+                <input class="button" type="submit" value="SEND">
+            </form>
+        </div>
+        <div class="section-contact__contacts-side">
+            <h3 class="section-contact__text-larg">ADDRESS</h3>
+            <span class="section-contact__text">123 City name, Street, City, Country</span>
+            <h3 class="section-contact__text-larg">EMAIL</h3>
+            <span class="section-contact__text">cahee@domain.com</span>
+            <h3 class="section-contact__text-larg">PHONE</h3>
+            <span class="section-contact__text">+012 345 6789</span>
+        </div>
+    </div>
+</section>

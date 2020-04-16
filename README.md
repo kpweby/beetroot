@@ -19,3 +19,5 @@
 - Lesson 7
   - [Lesson 7.1](https://kpweby.github.io/beetroot/l7_css_boxmodel/2.1/index)
   - [Lesson 7.2](https://kpweby.github.io/beetroot/l7_css_boxmodel/2.2/index)
+- [Lesson 8-21] (...loading)))
+- [Lesson 22](https://kpweby.github.io/beetroot/l22_js/src/index)

@@ -11,7 +11,7 @@ function say_go() {
     var comiss = pname * 1.15
     var srValue = (Number(lname1) + Number(lname2) + Number(lname3) + Number(lname4) + Number(lname5)) / 5
     var colorSumm = Number(srValue) - Number(comiss)
-    var end = Number(srValue) - 0.01
+    var end = Number(srValue) - 0.02
 
 
 
@@ -25,6 +25,7 @@ function say_go() {
         case colorSumm < 0:
             return resultElem.style.backgroundColor = "#f00";
         default:
+            return resultElem.style.backgroundColor = "#0000FF"
 
     }
 }
